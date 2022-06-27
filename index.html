@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Project: Recipe book</title>
+        <meta charset="utf-8">
+        <style>
+        body{
+            background-color: rgb(49, 51, 75);
+            color: white;
+            border: 7mm ridge rgb(211,220,222,.4);
+            border-width: 1.2em;
+            padding: 1em;
+        }
+         h1 {
+            text-align: center;
+            font-family: 'Courier New', Courier, monospace;
+            font-size: 32px;
+            font-weight: normal;
+         }
+         h2 {
+             color: rgb(14, 150, 71);
+         }
+         #tableOContents {
+            font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            font-size: 19px;
+            font-weight: normal;
+            line-height: 1.5em;
+
+         }
+         #mac-n-cheese{
+             color:rgb(230, 200, 28);
+             text-align: left;
+         }
+         #buffalo-wings{
+             color:rgb(232, 143, 0);
+         }
+         #pizza{
+             color:red;
+         }
+        </style>
+    </head>
+    <body>
+        <!-- This is a comment -->
+        <h1>Ty's Recipe Book</h1>
+        <h2>Contents:</h2>
+        <ol id="tableOContents">
+            <li><a href="#mac-n-cheese">Mac N Cheese</a></li>
+            <li><a href="#buffalo-wings">Buffalo Wings</a></li>
+            <li><a href="#pizza">Pizza</a></li>
+        </ol>
+        <!--Mac N Cheese-->
+        <h2 id="mac-n-cheese">Mac and Cheese</h2>
+        <a target = "_blank" href="https://en.wikipedia.org/wiki/Macaroni_and_cheese"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Original_Mac_n_Cheese_.jpg/220px-Original_Mac_n_Cheese_.jpg" width = "200" alt="Mac and cheese with chives on top, baked in an oven."></a>
+        <ul>
+            <li>Time: 15:00</li>
+            <li>Serves: 3</li>
+        </ul>
+        <table>
+            <thead>
+                <tr>
+                    <th>Ingredients</th>
+                    <th>Quantity</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Elbow Noodle</td>
+                    <td>2 cups</td>
+                </tr>
+                <tr>
+                    <td>Cheddar Cheese</td>
+                    <td>1 cup</td>
+                </tr>
+                <tr>
+                    <td>Milk</td>
+                    <td>1 cups</td>
+                </tr>
+            </tbody>
+        </table>
+        <p><strong>Step 1:</strong> Boil water.
+            <strong><br>Step 2: </strong>Pour noodles in water.
+            <strong><br>Step 3: </strong> Heat up milk and cheese in another pot.
+            <strong><br>Step 4: </strong> Mix them together.
+        </p>
+        <p><em>Source: <a target="_blank" href="https://www.allrecipes.com/recipes/509/main-dish/pasta/macaroni-and-cheese/">Mac-N-Cheese Recipe</a></em></p>
+        <!--Buffalo Wings-->
+        <h2 id="buffalo-wings">Buffalo Wings</h2>
+        <a target="_blank" href="https://en.wikipedia.org/wiki/Buffalo_wing"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Buffalo_wings-01.jpg/220px-Buffalo_wings-01.jpg" width="200" alt="Buffalo Wings"></a>
+        <ul>
+            <li>Time: 30:00</li>
+            <li>Serves: 2</li>
+        </ul>
+        <table>
+            <thead>
+                <tr>
+                    <th>Ingredients</th>
+                    <th>Quantity</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Chicken wings</td>
+                    <td>2 pounds</td>
+                </tr>
+                <tr>
+                    <td>Red Hot</td>
+                    <td>Half a cup</td>
+                </tr>
+                <tr>
+                    <td>Butter</td>
+                    <td>1 stick</td>
+                </tr>
+                <tr>
+                    <td>Flour</td>
+                    <td>4 cups</td>
+                </tr>
+                <tr>
+                    <td>Seasonings</td>
+                    <td>Personal Preference</td>
+                </tr>
+                <tr>
+                    <td>Frying Oil</td>
+                    <td>1 pot full</td>
+                </tr>
+            </tbody>
+        </table>
+        <p>
+            <strong>Step 1: </strong>Melt butter and mix in Red Hot.
+            <strong><br>Step 2: </strong>Dredge wings in flour mixture.
+            <strong><br>Step 3: </strong>Fry wings in oil
+            <strong><br>Step 4: </strong>Toss wings in sauce
+        </p>
+        
+    <p><em>Source: <a target="_blank" href="https://www.delish.com/cooking/recipe-ideas/recipes/a51133/classic-buffalo-wings-recipe/">Buffalo Wing Recipe</a></em></p>
+    <!--Pizza-->
+    <h2 id="pizza">Pizza</h2>
+    <a target = "_blank" href="https://en.wikipedia.org/wiki/Pizza"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Eq_it-na_pizza-margherita_sep2005_sml.jpg/220px-Eq_it-na_pizza-margherita_sep2005_sml.jpg" width ="200" alt="Pizza, wood oven baked, with basil leaves on top."></a>
+    <ul>
+        <li>Time: 45:00</li>
+        <li>Serves: 5</li>
+    </ul>
+    <table>
+        <thead>
+            <tr>
+                <th>Ingredients</th>
+                <th>Quantity</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Pizza Dough</td>
+                <td>1 serving</td>
+            </tr>
+            <tr>
+                <td>Cheese</td>
+                <td>2 cups</td>
+            </tr>
+            <tr>
+                <td>Pepperoni</td>
+                <td>1 cup</td>
+            </tr>
+            <tr>
+                <td>Marinara</td>
+                <td>2 cups</td>
+            </tr>
+        </tbody>
+    </table>
+    <p>
+        <strong>Step 1: </strong>Spread sauce on dough.
+        <strong><br>Step 2: </strong>Sprinkle Cheese on dough.
+        <strong><br>Step 3: </strong>Lay pepperoni slices down.
+        <br>
+        <em><br>Source: <a target="_blank" href="https://en.wikipedia.org/wiki/Pizza">Pizza Recipe</a></em>
+    </p>
+    
+    </body>
+</html>
