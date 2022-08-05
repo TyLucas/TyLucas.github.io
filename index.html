@@ -1,177 +1,136 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>Project: Recipe book</title>
-        <meta charset="utf-8">
-        <style>
-        body{
-            background-color: rgb(49, 51, 75);
-            color: white;
-            border: 7mm ridge rgb(211,220,222,.4);
-            border-width: 1.2em;
-            padding: 1em;
-        }
-         h1 {
-            text-align: center;
-            font-family: 'Courier New', Courier, monospace;
-            font-size: 32px;
-            font-weight: normal;
-         }
-         h2 {
-             color: rgb(14, 150, 71);
-         }
-         #tableOContents {
-            font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-            font-size: 19px;
-            font-weight: normal;
-            line-height: 1.5em;
-
-         }
-         #mac-n-cheese{
-             color:rgb(230, 200, 28);
-             text-align: left;
-         }
-         #buffalo-wings{
-             color:rgb(232, 143, 0);
-         }
-         #pizza{
-             color:red;
-         }
-        </style>
-    </head>
-    <body>
-        <!-- This is a comment -->
-        <h1>Ty's Recipe Book</h1>
-        <h2>Contents:</h2>
-        <ol id="tableOContents">
-            <li><a href="#mac-n-cheese">Mac N Cheese</a></li>
-            <li><a href="#buffalo-wings">Buffalo Wings</a></li>
-            <li><a href="#pizza">Pizza</a></li>
-        </ol>
-        <!--Mac N Cheese-->
-        <h2 id="mac-n-cheese">Mac and Cheese</h2>
-        <a target = "_blank" href="https://en.wikipedia.org/wiki/Macaroni_and_cheese"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Original_Mac_n_Cheese_.jpg/220px-Original_Mac_n_Cheese_.jpg" width = "200" alt="Mac and cheese with chives on top, baked in an oven."></a>
-        <ul>
-            <li>Time: 15:00</li>
-            <li>Serves: 3</li>
-        </ul>
-        <table>
-            <thead>
-                <tr>
-                    <th>Ingredients</th>
-                    <th>Quantity</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>Elbow Noodle</td>
-                    <td>2 cups</td>
-                </tr>
-                <tr>
-                    <td>Cheddar Cheese</td>
-                    <td>1 cup</td>
-                </tr>
-                <tr>
-                    <td>Milk</td>
-                    <td>1 cups</td>
-                </tr>
-            </tbody>
-        </table>
-        <p><strong>Step 1:</strong> Boil water.
-            <strong><br>Step 2: </strong>Pour noodles in water.
-            <strong><br>Step 3: </strong> Heat up milk and cheese in another pot.
-            <strong><br>Step 4: </strong> Mix them together.
-        </p>
-        <p><em>Source: <a target="_blank" href="https://www.allrecipes.com/recipes/509/main-dish/pasta/macaroni-and-cheese/">Mac-N-Cheese Recipe</a></em></p>
-        <!--Buffalo Wings-->
-        <h2 id="buffalo-wings">Buffalo Wings</h2>
-        <a target="_blank" href="https://en.wikipedia.org/wiki/Buffalo_wing"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Buffalo_wings-01.jpg/220px-Buffalo_wings-01.jpg" width="200" alt="Buffalo Wings"></a>
-        <ul>
-            <li>Time: 30:00</li>
-            <li>Serves: 2</li>
-        </ul>
-        <table>
-            <thead>
-                <tr>
-                    <th>Ingredients</th>
-                    <th>Quantity</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>Chicken wings</td>
-                    <td>2 pounds</td>
-                </tr>
-                <tr>
-                    <td>Red Hot</td>
-                    <td>Half a cup</td>
-                </tr>
-                <tr>
-                    <td>Butter</td>
-                    <td>1 stick</td>
-                </tr>
-                <tr>
-                    <td>Flour</td>
-                    <td>4 cups</td>
-                </tr>
-                <tr>
-                    <td>Seasonings</td>
-                    <td>Personal Preference</td>
-                </tr>
-                <tr>
-                    <td>Frying Oil</td>
-                    <td>1 pot full</td>
-                </tr>
-            </tbody>
-        </table>
-        <p>
-            <strong>Step 1: </strong>Melt butter and mix in Red Hot.
-            <strong><br>Step 2: </strong>Dredge wings in flour mixture.
-            <strong><br>Step 3: </strong>Fry wings in oil
-            <strong><br>Step 4: </strong>Toss wings in sauce
-        </p>
-        
-    <p><em>Source: <a target="_blank" href="https://www.delish.com/cooking/recipe-ideas/recipes/a51133/classic-buffalo-wings-recipe/">Buffalo Wing Recipe</a></em></p>
-    <!--Pizza-->
-    <h2 id="pizza">Pizza</h2>
-    <a target = "_blank" href="https://en.wikipedia.org/wiki/Pizza"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Eq_it-na_pizza-margherita_sep2005_sml.jpg/220px-Eq_it-na_pizza-margherita_sep2005_sml.jpg" width ="200" alt="Pizza, wood oven baked, with basil leaves on top."></a>
-    <ul>
-        <li>Time: 45:00</li>
-        <li>Serves: 5</li>
-    </ul>
-    <table>
-        <thead>
-            <tr>
-                <th>Ingredients</th>
-                <th>Quantity</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>Pizza Dough</td>
-                <td>1 serving</td>
-            </tr>
-            <tr>
-                <td>Cheese</td>
-                <td>2 cups</td>
-            </tr>
-            <tr>
-                <td>Pepperoni</td>
-                <td>1 cup</td>
-            </tr>
-            <tr>
-                <td>Marinara</td>
-                <td>2 cups</td>
-            </tr>
-        </tbody>
-    </table>
-    <p>
-        <strong>Step 1: </strong>Spread sauce on dough.
-        <strong><br>Step 2: </strong>Sprinkle Cheese on dough.
-        <strong><br>Step 3: </strong>Lay pepperoni slices down.
-        <br>
-        <em><br>Source: <a target="_blank" href="https://en.wikipedia.org/wiki/Pizza">Pizza Recipe</a></em>
-    </p>
-    
-    </body>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tylucas.com</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="ty-site-pics/tySimpson.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="top.css">
+    <link rel="stylesheet" href="middle.css">
+    <link rel="stylesheet" href="bottom.css">
+    <link rel="stylesheet" href="general.css">
+    <link rel="stylesheet" href="ty-site-pics/font-awesome-4.7.0/css/font-awesome.css">
+</head>
+<body>
+    <div class="top">
+        <div id="navbar">
+            <a href="#top" class="navbar-link">Home</a>
+            <a href="#about" class="navbar-link">About</a>
+            <a href="#info" class="navbar-link">Info</a>
+            <label class="switch">
+                <input type="checkbox">
+                <span class="slider round"></span>
+            </label>
+        </div>
+        <div class="name-and-bio">
+            <h1 id="my-name">Ty W. Lucas</h1>
+            <p id="my-description">I'm a current student at Scottsdale Community College, majoring in Computer Science.
+                I plan to become a software engineer and use my skills to build meaningful software to benefit the everyday lives of people.
+            </p>
+            <div class="social-icons">
+                <i class="fa fa-envelope"></i>
+                <a href="https://twitter.com/tealou__" target="_blank"><i class="fa fa-twitter"></i></a>
+                <a href="https://www.linkedin.com/in/ty-lucas-53857a247/" target="_blank"><i class="fa fa-linkedin"></i></a>
+                <a href="https://github.com/TyLucas" target="_blank"><i class="fa fa-github"></i></a>
+            </div>
+        </div>
+    </div>
+    <div class="middle">
+        <div id="about">
+            <div class="header-text-div">
+                <h2 class="about-me-header">About Me</h2>
+            </div>
+            <div class="pp-container">
+                <img class ="profile-pic" src="ty-site-pics/tySimpson.jpg">
+            </div>
+            <div class="desc-container">
+                <p class="about-me-desc">
+                    I am a 20 year old in my third year of college. 
+                    My current goal is to learn more web development languages to assist me in my plans to become a full stack developer.
+                    Although I do not have much experience in the field right now, that does not stop my from being a constant learner.
+                    I understand that being successful in this industry takes time and consistensy, which is why I set my education as
+                    my top priority. Because I am hard-working and dedicated to what I do, I know that with time I will be a great engineer.
+                    With my experience in management and customer service, I also bring to the table the other side of the spectrum. I know what it is like
+                    to make deadlines and work with efficiency. Along with this, I see the needs of all of my coworkers and take pride and making
+                    the workplace an enjoyable, yet focused environment. I pride myself in my work ethic and dedication to completing tasks, which over time,
+                    will become more apparent.
+                </p>
+                <p class="about-me-desc" style="padding-top: 25px;">
+                    In regards to leadership, I believe that the term can be defined as having the ability to inspire.
+                    It is not the person which people follow, but rather their actions. Setting a good example, whether it be in the
+                    workplace or not, shows peers what you stand for and how you operate. What's unique about leadership is that
+                    everyone has their own unique way of leading, or inspiring others.                    
+                </p>
+                <p class="about-me-desc" style="padding-top: 25px;">
+                    With all of that said, I truly believe I bring the best of both worlds; technical and interpersonal.
+                    I task myself with the responsibility of bringing project visions to reality as well as ensuring the team
+                    meets deadlines and delivers on their promise to the company. A track record of constantly aiming above an beyond
+                    makes me the perfect fit for your next project.
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="bottom">
+        <div id="info">
+            <h2 class="work-title">Work</h2>
+            <div class="work-experience">
+                <div class="job">
+                    <h3 class="company">My Computer Works</h3>
+                    <h4 class="title-and-tenure">Customer Serice/Sales Representative &#8226 July 2022 - present</h4>
+                    <p class="job-desc">
+                        My responsibilities include but are not limited to customer care as well as a sales associate.
+                        Part of my role in customer service is caring for a clientel of nearly 5000 people. I am tasked with
+                        managing the customer service queue and making sure every problem is resolved. I handle failed billings
+                        as well as cancelations, with a goal to save as many customers as possible.
+                    </p>
+                </div>
+                <div class="job">
+                    <h3 class="company">Chick-fil-A</h3>
+                    <h4 class="title-and-tenure">Kitchen Manager &#8226 March 2021 - December 2021</h4>
+                    <p class="job-desc">
+                        As my first job, my goals were to be able to work well with coworkers as well as gain a simple understanding for
+                        how a successful business runs. A short six months after starting, I felt skilled enough at every position that I knew
+                        what it takes to run the kitchen, so I pursued leadership as my next role in the company and it was one of my greatest decisions.
+                        Overseeing team members allows you to account for habits, issues, and things done well.
+                        I left behind with my team the understanding of what it means to be task oriented but also see
+                        the relationship side of the business.
+                    </p>
+                </div>
+                <div class="job">
+                    <h3 class="company">Chick-fil-A</h3>
+                    <h4 class="title-and-tenure">Team Member &#8226 June 2020 - March 2021</h4>
+                    <p class="job-desc">
+                        As my first job, my goals were to be able to work well with coworkers as well as gain a simple understanding for
+                        how a successful business runs. A short six months after starting, I felt skilled enough at every position that I knew
+                        what it takes to run the kitchen, so I pursued leadership as my next role in the company and it was one of my greatest decisions.
+                        Overseeing team members allows you to account for habits, issues, and things done well.
+                        I left behind with my team the understanding of what it means to be task oriented but also see
+                        the relationship side of the business.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <section class="skills">
+            <h2 class="skills-title">Skills / Traits</h2>
+            <div class="skills-traits-div">
+                <div class="skills-div">
+                    <h3 class="skills-categories">Programming</h3>
+                    <p class="skills-ex">HTML/HTML5, CSS, Java, C, C++, C#, Racket (Scheme), Prolog.</p>
+                </div>
+                <div class="traits-div">
+                    <h3 class="traits-categories">Interpersonal</h3>
+                    <p class="traits-ex">Team management, communication, innovative, determined, works long hours, task oriented.</p>
+                </div>    
+            </div>
+        </section>
+        <section class="footer">
+            <h4 class="footer-text">2022 - Ty Lucas - tealou projects</h4>
+            <a href="#top"><i class="fa fa-chevron-up"></i></a>
+        </section>
+    </div>
+</body>
 </html>
