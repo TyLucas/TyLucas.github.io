@@ -1,0 +1,84 @@
+.top{
+    margin: 0;
+    padding: 0;
+    position: relative;
+    background-image: url(ty-site-pics/night-skyline.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 10px;
+    padding-bottom: 180px;
+    height: 550px;
+    display: flex;
+    justify-content: center;
+}
+.top #navbar{
+    display: flex;
+}
+#navbar{
+    position: fixed;
+    column-gap: 50px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    font-family: Comfortaa;
+    font-size: 15px;
+    font-weight: 600;
+    z-index: 1;
+}
+.navbar-link{
+    text-decoration: none;
+    color: rgb(133, 133, 133);
+}
+.navbar-link:first-child{
+    color: rgb(233, 150, 102);
+}
+#my-name{
+    text-align: center;
+    font-size: 2.5em;
+    font-family: Comfortaa, cursive;
+    font-weight: 700;
+    padding-top: 40px;
+    color: rgb(255, 255, 255);
+    margin: 0;
+    margin-top: 20px;
+}
+#my-description{
+    font-family: Comfortaa, cursive;
+    font-weight: 600;
+    font-size: 0.5em;
+    line-height: 25px;
+    color: rgb(255, 255, 255);
+    padding-top: 24px;
+    margin: 0;
+    margin-left: -50px;
+    margin-right: -50px;
+    border-bottom: 1px solid rgb(156, 156, 156);
+    text-align: center;
+}
+.name-and-bio{
+    padding-left: 150px;
+    padding-right: 150px;
+    margin-top: 45px;
+    display: flex;
+    flex-direction: column;
+    width: 550px;
+}
+.social-icons{
+    display: flex;
+    justify-content: center;
+    column-gap: 25%;
+    padding-top: 7px;
+    color: white;
+    cursor: pointer;
+}
+.social-icons a{
+    color: white;
+}
+.fa-envelope:hover,
+.fa-twitter:hover,
+.fa-linkedin:hover,
+.fa-github:hover{
+    color:rgb(252, 118, 40);
+}
+.social-icons i{
+    transition: color .5s;
+}
